@@ -473,6 +473,7 @@ footer .container {
     }
   }
   .hero {
+    padding-top: 6rem;
     .hero-content {
       grid-column: span 3;
     }
