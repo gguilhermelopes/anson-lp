@@ -603,31 +603,3 @@ footer .container {
     align-self: center;
   }
 }
-
-/* Suporte para dark/light mode */
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-color: #f0f4f8;
-    --background-darker: #e1e8ed;
-    --background-darkest: #d1dbe0;
-    --background-lighter: #ffffff;
-    --text-color: #1a202c;
-    --text-color-muted: #4a5568;
-  }
-
-  .cta {
-    color: var(--text-color);
-  }
-
-  .cta h2 {
-    color: var(--text-color);
-  }
-
-  header {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-
-  .instagram-icon svg path {
-    fill: var(--text-color);
-  }
-}
